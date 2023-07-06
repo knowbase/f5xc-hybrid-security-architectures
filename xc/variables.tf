@@ -97,7 +97,7 @@ variable "xc_api_val_properties_block" {
   default = ["PROPERTY_QUERY_PARAMETERS", "PROPERTY_PATH_PARAMETERS", "PROPERTY_CONTENT_TYPE", "PROPERTY_COOKIE_PARAMETERS", "PROPERTY_HTTP_HEADERS", "PROPERTY_HTTP_BODY"]
 
 }
-variable "fall_through_mode_allows" {
+variable "fall_through_mode_allow" {
   type        = string
   description = "Enable fall through mode allows"
   default     = "false"

@@ -130,7 +130,7 @@ variable "jwks" {
 variable "iss_claim" {
   type        = string
   description = "JWT Validation issuer claim"
-  default     = "true"
+  default     = "false"
 }
 variable "aud_claim" {
   type        = list(string)
@@ -140,7 +140,7 @@ variable "aud_claim" {
 variable "exp_claim" {
   type        = string
   description = "JWT Validation expiration claim"
-  default     = "true"
+  default     = "false"
 }
 
 #XC Bot Defense

@@ -14,7 +14,7 @@ exec 2>&1
 
 # Run Immediately Before MCPD starts
 /usr/bin/setdb provision.extramb 1000
-/usr/bin/setdb restjavad.useextramb true
+/usr/bin/setdb provision.restjavad.useextramb 1000
 
 # save config
 tmsh save sys config
